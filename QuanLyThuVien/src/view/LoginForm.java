@@ -47,7 +47,7 @@ public class LoginForm extends JFrame {
                 String user = txtUser.getText();
                 String pass = new String(txtPass.getPassword());
                 
-                if(user.equals("admin") && pass.equals("123")) {
+                if(user.equals("bittien") && pass.equals("123456")) {
                     JOptionPane.showMessageDialog(null, "Đăng nhập thành công!");
                     dispose(); // Đóng form đăng nhập
                     new MainFrame(); // Mở giao diện chính quản lý độc giả
